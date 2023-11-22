@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body{
+  background:#fff;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+.box022{
+ 
+  background:#191919;
+  border: solid rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  float:left; 
+}
+
+.box12{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+.box22{
+  width: fit-content;
+  height: 100%;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+}
+
+.box32{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
+}
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+.evenboxinner2{
+    transform: rotate(2deg);
+    
+    
+    background:#ea4d4d;
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+  }
